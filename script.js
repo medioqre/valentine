@@ -1,6 +1,5 @@
-let buttonTexts = ['huh', 'no???', 'wth!!!', 'do you want me to get mad?', 'rethink your choice smoly baby'];
+let buttonTexts = ['huh', 'no???', 'wth!!!', 'do you want me to get mad?', 'rethink your choice smoly baby', 'end'];
     let currentTextIndex = 0;
-    
     function changeText() {
         const noButton = document.querySelector('.no');
         noButton.innerText = buttonTexts[currentTextIndex];
