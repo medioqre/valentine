@@ -1,0 +1,30 @@
+img{
+    width: 400px;
+}
+
+body{
+    background-color: black;
+}
+
+button {
+    background-color: #323232;
+    border-radius: 100px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    background-color: #ff9999;
+  }
+  
+button:hover {transform: scale(1.05);
+  }

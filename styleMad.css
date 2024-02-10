@@ -25,12 +25,16 @@
     justify-content: center;
     gap: 16px;
     background-color: #120303;
+
   }
   img{
     border-radius: 15px;
+    max-width: 400px;
   }
   div{
     font-weight: bold;
     font-size: 32px;
   }
-  
+  .why{
+    word-spacing: 20px;
+  }
