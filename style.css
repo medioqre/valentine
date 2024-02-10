@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
+    flex-grow: 1;
 }
 
 .yes {
@@ -22,12 +23,12 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  font-weight: bold;
 }
 
 .yes:hover { transform: scale(1.05);
 }
 .no {
-    
   background-color: #c2fbd7;
   border-radius: 100px;
   cursor: pointer;
@@ -43,6 +44,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   color: rgb(169, 46, 46);
+  font-weight: bold;
   background-color: #ff9999;
 }
 
