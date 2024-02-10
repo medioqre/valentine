@@ -4,6 +4,10 @@ img{
 
 body{
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -21,9 +25,9 @@ button {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
     font-weight: bold;
-    background-color: #ff9999;
+    background-color: #0f0f0f;
   }
   
 button:hover {transform: scale(1.05);
