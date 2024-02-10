@@ -1,4 +1,4 @@
-let buttonTexts = ['huh', 'no???', 'wth!!!', 'rethink your choice smoly baby'];
+let buttonTexts = ['huh', 'no???', 'wth!!!', 'do you want me to get mad?', 'rethink your choice smoly baby'];
     let currentTextIndex = 0;
     
     function changeText() {
