@@ -1,4 +1,4 @@
-let buttonTexts = ['huh', 'no?? really?', 'are you sure???', 'rethink your choice smoly baby'];
+let buttonTexts = ['huh', 'no???', 'wth!!!', 'rethink your choice smoly baby'];
     let currentTextIndex = 0;
     
     function changeText() {
@@ -12,4 +12,9 @@ let buttonTexts = ['huh', 'no?? really?', 'are you sure???', 'rethink your choic
         currentTextIndex = (currentTextIndex + 1) % buttonTexts.length;
     }
 
+    // function happy(){
 
+    //     // do smth when she presses yes, like travel to another webapge saying smth but thats done with html
+
+        
+    // }

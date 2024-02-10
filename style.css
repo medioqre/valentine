@@ -48,3 +48,7 @@
 
 .no:hover {transform: scale(1.05) rotate(-1deg);
 }
+.question{
+    font-size: 32px;
+    font-weight: bold;
+}
