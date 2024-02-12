@@ -2,7 +2,7 @@ let buttonTexts = ['huh', 'wha', 'no???', 'wth!!!', '(•ˋ _ ˊ•)', 'do you w
     let currentTextIndex = 0;
 
     function changeText() {
-        const noButton = document.querySelector('.no');
+        const noButton = document.querySelector('.yes');
         noButton.innerText = buttonTexts[currentTextIndex];
         const currentFontSize = parseFloat(getComputedStyle(noButton).fontSize);
     const newFontSize = currentFontSize * 1.25;  // You can adjust the multiplier for the desired text size increase
